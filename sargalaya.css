@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height:100px;
+    background:#fff;
+    width: 100%;
+    z-index: 25;
+    position:relative;
+}
+.menu{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:larger;
+}
+
+.menu:hover{
+    text-decoration: underline;
+}
+
+.tab{
+    column-width: 30px;
+    text-align: center;
+    
+}
+
+.dr{
+    position: relative;
+    display: inline-block;
+}
+
+.drop{
+    background: #fff;
+    border: none;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+.dropdown{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    z-index: 1;
+    
+}
+.dropdown a{
+    color:white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-top: 10%;
+    min-height: 30px;
+}
+
+.dr:hover .dropdown {display: block;}
+.dr:hover .drop {background-color:transparent;}
+
+.image{
+    position: relative;
+}
+
+.image-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+     
+}
+
+.image-title{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.image-overlay:hover{
+    opacity: 1;
+}
+
+.block1{
+    margin: 5%;
+    height: 40vh;
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:28px;
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:300;
+    font-size: 14px;
+    line-height: 26px;
+    color: rgb(58, 57, 57);
+}
+
+.Booking{
+    margin-left:43%;
+    height: 50px;
+    width: 200px;
+    border:none;
+    background-image:linear-gradient(to right,red,rgb(222, 222, 30));
+    border-radius: 9px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.Booking:hover{
+    background-image:linear-gradient(to left,red,rgb(222, 222, 30));
+}
+
+.icons{
+    display:flex;
+    flex-direction: row;
+    background: rgba(128, 128, 128, 0.175);
+    width: 100%;
+}
+
+.icon1{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    flex:1;
+    flex-grow: 1;
+    opacity:0.6;
+}
+
+.icon1:hover{
+    opacity: 1;
+}
+
+.icon2{
+    flex:2;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    flex-grow: 1;
+    opacity: 0.6;
+}
+
+.icon2:hover{
+    opacity: 1;
+}
+
+.icon3{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    flex:3;
+    flex-grow: 1;
+    opacity: 0.6;
+}
+
+.icon3:hover{
+    opacity: 1;
+}
+
+.icon4{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    flex:4;
+    flex-grow: 1;
+    opacity: 0.6;
+}
+
+.icon4:hover{
+    opacity: 1;
+}
+
+.icon5{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    flex:5;
+    flex-grow: 1;
+    opacity: 0.6;
+}
+
+.icon5:hover{
+    opacity: 1;
+}
+
+.icon6{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    flex:6;
+    flex-grow: 1;
+    opacity: 0.6;
+}
+
+.icon6:hover{
+    opacity: 1;
+}
+
+.block2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+
+.column1{
+    flex: 1;
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.para1{
+}
+
+.column2{
+    flex: 2;
+    flex-grow: 1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para2{
+    font-size: 20px;
+    color: black;
+}
+
+.map{
+    width:100%;
+    height:50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+iframe{
+    width: 100%;
+    height:50vh;
+}
+
+.footer
+{
+    background: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo2{
+    margin-top: 10%;
+    margin-left: 40%;
+    flex:1;
+    flex-grow: 1;
+    margin-bottom: 3%;
+}
+
+.footer2{
+width:100%;
+   display: flex;
+   flex-direction: row;
+   background: black;
+   justify-content:space-evenly;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+   
+}
+
+.class1{
+    width: 10%;
+    margin: 10%;
+}
+
+.class2{
+    width: 10%;
+    margin: 10%;
+}
+
+.class3{
+    width: 10%;
+    margin: 10%;
+}
+
+.container2{
+    background: black;
+    position: ;
+}
+.footer3{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 10%%;
+}
+
+.social:hover{
+    opacity:0.6;
+}
+
+
+
+
